@@ -5,72 +5,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Barber Shop</title>
-  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<style>
-  @font-face{
-  font-family: 'Gilroy-Regular';
-  src: url(../fonts/Gilroy-Regular.woff2) format('woff2'),
-      url(../fonts/Gilroy-Regular.woff) format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face{
-  font-family: 'Gilroy-Medium';
-  src: url(../fonts/Gilroy-Medium.woff2) format('woff2'),
-      url(../fonts/Gilroy-Medium.woff) format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face{
-  font-family: 'Gilroy-SemiBold';
-  src: url(../fonts/Gilroy-SemiBold.woff2) format('woff2'),
-      url(../fonts/Gilroy-SemiBold.woff) format('woff');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face{
-  font-family: 'Gilroy-Bold';
-  src: url(../fonts/Gilroy-Bold.woff2) format('woff2'),
-      url(../fonts/Gilroy-Bold.woff) format('woff');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face{
-  font-family: 'Gilroy-ExtraBold';
-  src: url(../fonts/Gilroy-ExtraBold.woff2) format('woff2'),
-      url(../fonts/Gilroy-ExtraBold.woff) format('woff');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face{
-  font-family: 'Gilroy-Black';
-  src: url(../fonts/Gilroy-Black.woff2) format('woff2'),
-      url(../fonts/Gilroy-Black.woff) format('woff');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face{
-  font-family: 'Gilroy-Heavy';
-  src: url(../fonts/Gilroy-Heavy.woff2) format('woff2'),
-      url(../fonts/Gilroy-Heavy.woff) format('woff');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-</style>
+
 <body>
 
+  <div class="preloader">
+    <div class="preloader__inner">
+      <p class="preloader__title">Barberclub</p>
+      <div class="preloader__descr">
+        Загружаемся
+        <span class="preloader__descr-dot preloader__descr-dot--1">.</span>
+        <span class="preloader__descr-dot preloader__descr-dot--2">.</span>
+        <span class="preloader__descr-dot preloader__descr-dot--3">.</span>
+      </div>
+    </div>
+  </div>
 
   <div class="main">
     <header class="header" id="header">
-      <!-- <div class="header__light light-left">
+      <div class="header__light light-left">
         <picture>
           <source type="image/webp" srcset="images/light-left.webp">
           <img class="light-left__img" src="images/light-left.png" alt="">
@@ -87,7 +41,7 @@
           <source type="image/webp" srcset="images/light-right.webp">
           <img class="light-right__img" src="images/light-right.png" alt="">
         </picture>
-      </div> -->
+      </div>
       <div class="header__bg-wrapper">
         <div class="header__bg-inner">
           <picture>
@@ -1084,8 +1038,8 @@
   </div>
 
 
-  <script src="js/libs.min.js"></script>
-  <script src="js/main.min.js"></script>
+  <script src="js/libs.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
